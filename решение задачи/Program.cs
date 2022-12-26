@@ -7,3 +7,6 @@
 using System;
 using static System.Console;
 
+Write("Введите количество элементов  ");
+int size = System.Convert.ToInt32(ReadLine());
+
