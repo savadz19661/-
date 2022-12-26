@@ -29,3 +29,15 @@ for (int e = 0; e < size; e++)
         position++;
     }
 }
+WriteLine();
+PrintArray(arrayElements);
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        WriteLine($"Элементы, соответствующие требованиям массива [{array[i]}]");
+    }
+
+    WriteLine();
+}
