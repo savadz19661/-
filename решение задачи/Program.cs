@@ -10,3 +10,10 @@ using static System.Console;
 Write("Введите количество элементов  ");
 int size = System.Convert.ToInt32(ReadLine());
 
+string[] arrayStrings = new string[size];
+for (int i = 0; i < size; i++)
+{
+    WriteLine($"Введите {i+1} элемент: ");
+    string element = System.Convert.ToString(ReadLine());
+    arrayStrings[i] = element;
+}
